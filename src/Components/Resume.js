@@ -46,6 +46,20 @@ class Resume extends Component {
     });
 
     const skills = this.props.data.skills.map((skills) => {
+      return (
+        <div key={skills.name}>
+          <h3>{skills.name}</h3>
+          <p>
+            {skills.description}
+            <br />
+            {skills.description2}
+          </p>
+        </div>
+      );
+    });
+
+    /*
+    const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
       const className = "bar-expand " + skills.name.toLowerCase();
       const width = skills.level;
@@ -57,7 +71,7 @@ class Resume extends Component {
         </li>
       );
     });
-
+    */
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -80,7 +94,19 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Skills</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{skills}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Work Experience</span>
               </h1>
             </div>
 
@@ -88,23 +114,6 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
-          </div>
-        </Slide>
       </section>
     );
   }

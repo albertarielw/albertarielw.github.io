@@ -1,19 +1,21 @@
 {
   "main": {
-    "name":"Hi I'm Albert!",
-    "description":"I am an aspiring software engineer, currently a Year 2 Computer Science and Mathematics studying at National University of Singapore (NUS)",
+    "name":"Hello, I'm Albert!",
+    "description":"Aspiring to work on software engineering projects - with a lot of MATH!",
     "image":"profilepic4.png",
-    "bio":"I dream of working ",
+    "bio1":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding!",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything-public-speaking.",
+    "bio3":"Also, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
+    "email": "w.albertariel@u.nus.edu",
     "phone": "(+65) 8130 6134",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "github":"https://github.com/albertarielw",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
+      "street":"1 Raffles Institution Lane",
       "city":"Singapore City",
       "state":"Singapore",
-      "zip": ""
+      "zip": "575954"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
@@ -54,21 +56,29 @@
         "graduated":"Aug 2021 - Present",
         "description":"GPA: 5.0 (out of 5.0)",
         "description2":"Recipient of NUS Undergraduate Merit Scholarship (ASEAN)"
+      },
+      {
+        "school":"Raffles Institution",
+        "degree":"Integrated Programme (Science Stream)",
+        "graduated":"Jan 2017 - Dec 2020",
+        "description":"Academic Excellence Award 2019 (top 5%)",
+        "description2":"Recipient of Raffles Institution School-Based Full Scholarship (ASEAN)"
       }
     ],
     "work":[
+      {
+        "company":"ConcreteAI",
+        "title":"Software Developer Intern",
+        "years":"May 2022 - Aug 2022",
+        "description":"I wrote logic on RAK3172 to integrate ESP32, a Bluetooth Low Energy (BLE) module, in C++ for transmission of concrete temperature development data. Then, I developed an android application usin Kotlin to receive concrete temperature data via BLE. "
+      },
       {
         "company":"National University of Singapore",
         "title":"Teaching Assistant",
         "years":"Aug 2022 - Present",
         "description":"I taught CS1010E Introduction to Programming in Python to a class of 20 freshmen. I learned how to explain programming concepts in an easy-to-understand way for those without programming background. This helped me enhance my communication ability to non-IT personnels and deepen my understanding of programming concepts."
-      },
-      {
-        "company":"ConcreteAI",
-        "title":"Software Developer Intern",
-        "years":"May 2022 - Aug 2022",
-        "description":"In this internship, I perfomed low-level development on RAK3172 to add Bluetooth Low Energy (BLE) module in C++. I then prototyped"
       }
+
     ],
     "skills":[
       {

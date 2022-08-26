@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import "./additional.css";
 
 class Resume extends Component {
   getRandomColor() {
@@ -45,14 +46,25 @@ class Resume extends Component {
       );
     });
 
+    const project = this.props.data.project.map(function (project) {
+      return (
+        <div key={project.name}>
+          <h3>{project.name}</h3>
+          <p className="info">
+            {project.title}
+            <span>&bull;</span> <em className="date">{project.years}</em>
+          </p>
+          <p>{project.description}</p>
+        </div>
+      );
+    });
+
     const skills = this.props.data.skills.map((skills) => {
       return (
         <div key={skills.name}>
           <h3>{skills.name}</h3>
           <p>
             {skills.description}
-            <br />
-            {skills.description2}
           </p>
         </div>
       );
@@ -73,7 +85,7 @@ class Resume extends Component {
     });
     */
     return (
-      <section id="resume">
+      <section id="resume" className="resume">
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -90,8 +102,6 @@ class Resume extends Component {
           </div>
         </Slide>
 
-
-
         <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
@@ -101,6 +111,18 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Project</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{project}</div>
           </div>
         </Slide>
 

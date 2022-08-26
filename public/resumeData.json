@@ -2,9 +2,9 @@
   "main": {
     "name":"Hello, I'm Albert!",
     "description":"Aspiring to work on software engineering projects - with a lot of MATH!",
-    "image":"profilepic4.png",
+    "image":"profilepic2.jpg",
     "bio1":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding!",
-    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything-public-speaking.",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking.",
     "bio3":"Also, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "w.albertariel@u.nus.edu",
@@ -70,26 +70,31 @@
         "company":"ConcreteAI",
         "title":"Software Developer Intern",
         "years":"May 2022 - Aug 2022",
-        "description":"I wrote logic on RAK3172 to integrate ESP32, a Bluetooth Low Energy (BLE) module, in C++ for transmission of concrete temperature development data. Then, I developed an android application usin Kotlin to receive concrete temperature data via BLE. "
+        "description":"My internship at ConcreteAI was a blast! I learned a wide variety of technical software engineering skills: low-level development in C++, mobile application development using Kotlin (Andriod studio) and time series classfication with PyTorch MLP models. My main takeaways are: reading documentation skills (Actually! This helps me pick new concepts much faster with regards to new libraries or frameworks) and writing code responsibly -  and readable code :)"
       },
       {
         "company":"National University of Singapore",
         "title":"Teaching Assistant",
         "years":"Aug 2022 - Present",
-        "description":"I taught CS1010E Introduction to Programming in Python to a class of 20 freshmen. I learned how to explain programming concepts in an easy-to-understand way for those without programming background. This helped me enhance my communication ability to non-IT personnels and deepen my understanding of programming concepts."
+        "description":"I teach CS1010E Introduction to Programming in Python to a class of 25 freshmen. I learned how to explain programming concepts in an easy-to-understand way for those without programming background. This helped me enhance my communication ability to non-IT personnels and deepen my understanding of programming concepts."
       }
-
     ],
     "skills":[
       {
         "name":"Programming Language",
-        "description":"(Expert) C++, Java, JavaScript, Python",
-        "description2":"(Familiar) C, HTML/ CSS, Kotlin, mySQL"
+        "description":"C, C++, Java, JavaScript, HTML, CSS, Python, Kotlin"
       },
       {
         "name":"Framework and Tools",
-        "description":"ReactJS, Kotlin (Android Studio), ExpressJS, NodeJS, Firebase, MongoDB, Git",
-        "description2":""
+        "description":"React, Kotlin (Android Studio), NodeJS, ExpressJS, Firebase, MongoDB, Git"
+      }
+    ],
+    "project": [
+      {
+        "name":"FoodSense",
+        "title":"Full-Stack Software Developer",
+        "years":"May 2022 - Aug 2022",
+        "description":"To further improve my software development skills, I built"
       }
     ]
   },

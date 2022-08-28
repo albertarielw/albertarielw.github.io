@@ -28,6 +28,8 @@ class Resume extends Component {
             {education.description}
             <br />
             {education.description2}
+            <br />
+            {education.description3}
           </p>
         </div>
       );
@@ -54,7 +56,33 @@ class Resume extends Component {
             {project.title}
             <span>&bull;</span> <em className="date">{project.years}</em>
           </p>
-          <p>{project.description}</p>
+          <p>{project.description}<a href={project.link}>{project.link}</a></p>
+        </div>
+      );
+    });
+
+    const activity = this.props.data.activity.map(function (activity) {
+      return (
+        <div key={activity.name}>
+          <h3>{activity.name}</h3>
+          <p className="info">
+            {activity.title}
+            <span>&bull;</span> <em className="date">{activity.years}</em>
+          </p>
+          <p>{activity.description}</p>
+        </div>
+      );
+    });
+
+    const volunteering = this.props.data.volunteering.map(function (volunteering) {
+      return (
+        <div key={volunteering.name}>
+          <h3>{volunteering.name}</h3>
+          <p className="info">
+            {volunteering.title}
+            <span>&bull;</span> <em className="date">{volunteering.years}</em>
+          </p>
+          <p>{volunteering.description}</p>
         </div>
       );
     });
@@ -137,6 +165,32 @@ class Resume extends Component {
             <div className="nine columns main-col">{skills}</div>
           </div>
         </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Activity</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{activity}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Volunteering</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{volunteering}</div>
+          </div>
+        </Slide>
+
+
 
       </section>
     );

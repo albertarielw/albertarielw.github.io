@@ -36,7 +36,6 @@ class About extends Component {
               <div className="bio">
                 <p>{bio1}</p>
                 <p>{bio2}</p>
-                <p>{bio3}</p>
               </div>
               
               
@@ -48,7 +47,7 @@ class About extends Component {
                     <span>
                       {street}
                       <br />
-                      {city}, {state}, {zip}
+                      {city}, {state} {zip}
                     </span>
                     <br />
                     <span>{phone}</span>

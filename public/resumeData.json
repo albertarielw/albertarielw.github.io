@@ -2,11 +2,10 @@
   "main": {
     "name":"Hello, I'm Albert!",
     "description":"Aspiring to work on software engineering projects - with a lot of MATH!",
-    "image":"profilepic2.jpg",
-    "bio1":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding!",
-    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking.",
-    "bio3":"Also, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "image":"newprofilepic2.png",
+    "bio1":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding! My dream job is to work on software development projects where I can learn, ideate and implement exciting solutions!",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
+    "contactmessage":"Contact me to collaborate on software development projects!",
     "email": "w.albertariel@u.nus.edu",
     "phone": "(+65) 8130 6134",
     "github":"https://github.com/albertarielw",
@@ -21,28 +20,8 @@
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/albertarielw",
         "className":"fa fa-github"
       }
     ]
@@ -55,14 +34,16 @@
         "degree":"B. Comp in Computer Science and Mathematics",
         "graduated":"Aug 2021 - Present",
         "description":"GPA: 5.0 (out of 5.0)",
-        "description2":"Recipient of NUS Undergraduate Merit Scholarship (ASEAN)"
+        "description2":"Recipient of NUS Undergraduate Merit Scholarship (ASEAN)",
+        "description3":""
       },
       {
         "school":"Raffles Institution",
         "degree":"Integrated Programme (Science Stream)",
         "graduated":"Jan 2017 - Dec 2020",
-        "description":"Academic Excellence Award 2019 (top 5%)",
-        "description2":"Recipient of Raffles Institution School-Based Full Scholarship (ASEAN)"
+        "description":"Raffles Academy (Olympiad Training) in Physics and Mathematics",
+        "description2":"Academic Excellence Award 2019 (top 5%)",
+        "description3":"Recipient of Raffles Institution School-Based Full Scholarship (ASEAN)"
       }
     ],
     "work":[
@@ -73,10 +54,22 @@
         "description":"My internship at ConcreteAI was a blast! I learned a wide variety of technical software engineering skills: low-level development in C++, mobile application development using Kotlin (Andriod studio) and time series classfication with PyTorch MLP models. My main takeaways are: reading documentation skills (Actually! This helps me pick new concepts much faster with regards to new libraries or frameworks) and writing code responsibly -  and readable code :)"
       },
       {
+        "company":"CARAKA",
+        "title":"Co-Founder",
+        "years":"Jan 2021 - June 2022",
+        "description":"I started an e-commerce start-up offering premium fashion items made in Indonesia in a team of three, collaborating with 15+ renowned brands with 200+ total products. In this journey, I contributed by developing the website using WixSite and worked on my professional communication abilities. Although CARAKA came to an end, regret was the furthest thing that came to my mind due to the skills and work experience I gained and the contribution we made to society with our community involvement project during my time building this startup."
+      },
+      {
         "company":"National University of Singapore",
         "title":"Teaching Assistant",
         "years":"Aug 2022 - Present",
         "description":"I teach CS1010E Introduction to Programming in Python to a class of 25 freshmen. I learned how to explain programming concepts in an easy-to-understand way for those without programming background. This helped me enhance my communication ability to non-IT personnels and deepen my understanding of programming concepts."
+      },
+      {
+        "company":"Raffles Institution Boarding",
+        "title":"Residential Assistant",
+        "years":"May 2022 - Present",
+        "description":"RI Boarding is the first family I made in Singapore. I feel a strong sense of belonging to this community which is why I returned as a residential assisstant. I handle administrative work and contribute to the community by providing basic web-development crash course on my free time."
       }
     ],
     "skills":[
@@ -94,7 +87,47 @@
         "name":"FoodSense",
         "title":"Full-Stack Software Developer",
         "years":"May 2022 - Aug 2022",
-        "description":"To further improve my software development skills, I built"
+        "description":"To further improve my software development skills, I worked in a team of two to build a restaurant analytics website as the sole software developer. This project is where the concept of software development really clicked for the first time for me as I learned to build the website's backend and frontend from scratch. You can check the live website @ ",
+        "link": "https://foodsense2022.github.io"
+      }
+    ],
+    "activity": [
+      {
+        "name":"NUS Indonesian Association",
+        "title":"Head of Tech. Division",
+        "years":"Aug 2022 - Present",
+        "description":"I am leading a team of eight programmers to work on a year-long software development project (Soon!). I will update as the project progresses!"
+      },
+      {
+        "name":"Young Physicists’ Tournament",
+        "title":"Physics Researcher",
+        "years":"Sep 2019 – Mar 2020",
+        "description":"I investigated an optics phenomenon named \"The Drifting Speckle\" where I coded simulation using C++ and Wolfram Mathematics based on Fourier Physics and Matrix Algebra and built experimental set-up to verify my simulation's theoretical predicitons. I received a Silver Medal in Singapore Young Physicists’ Tournament Category A 2020."
+      },
+      {
+        "name":"Robotics Competitions",
+        "title":"Robotics Engineer",
+        "years":"Jan 2019 – July 2020",
+        "description":"I built robots using Lego and Arduino componets and programmed them using Python and Arduino C. I achieved 3rd Place Award in Singapore Robocup Open 2019 and Best Programming Award in National Robotics Competition 2019."
+      },
+      {
+        "name":"Physics Olympiad",
+        "title":"Medallist",
+        "years":"Jan 2017 – Dec 2020",
+        "description":"I won Silver Medal in Singapore Physics Olympiad 2019, Bronze and Silver Medals in Singapore Junior Physics Olympiad 2017 and 2018"
+      }
+    ], "volunteering": [
+      {
+        "name":"CARAKA X Veteran Indonesia Fundraiser",
+        "title":"Organizer",
+        "years":"June 2021 - July 2021",
+        "description":"I partnered with Veteran Indonesia to raise S$2000 to alleviate financial adversities encountered by veterans during Covid-19 pandemic. I gathered and led 300+ volunteers to deploy social media platforms to raise funds. I also utilized this project to promote opening-sales of Caraka, thereby reducing advertising expenditure."
+      },
+      {
+        "name":"Project 001",
+        "title":"Organizer",
+        "years":"Jul 2019 – Jun 2020",
+        "description":"I Initiated a volunteering project aiming to expose basic programming knowledge to underprivileged primary school children in Singapore. Here, I collaborated withAng Mo Kio CDC to find beneficiaries as well as gathered and led 50 volunteers from Raffles Institutions."
       }
     ]
   },

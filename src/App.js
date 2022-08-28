@@ -15,7 +15,7 @@ class App extends Component {
     this.state = {
       foo: "bar",
       resumeData: {}
-    };
+    }; // test
 
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);

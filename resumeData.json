@@ -16,8 +16,8 @@
       "state":"Singapore",
       "zip": "575954"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://drive.google.com/file/d/1SPlkkmvC7XgnwSHD_LQBXImtitgB9LPb/view?usp=sharing",
+    "resumedownload":"https://drive.google.com/file/d/1SPlkkmvC7XgnwSHD_LQBXImtitgB9LPb/view?usp=sharing",
     "social":[
       {
         "name":"github",
@@ -39,7 +39,7 @@
       },
       {
         "school":"Raffles Institution",
-        "degree":"Integrated Programme (Science Stream)",
+        "degree":"Integrated Programme",
         "graduated":"Jan 2017 - Dec 2020",
         "description":"Raffles Academy (Olympiad Training) in Physics and Mathematics",
         "description2":"Academic Excellence Award 2019 (top 5%)",
@@ -85,7 +85,7 @@
     "project": [
       {
         "name":"FoodSense",
-        "title":"Full-Stack Software Developer",
+        "title":"Full-Stack Developer",
         "years":"May 2022 - Aug 2022",
         "description":"To further improve my software development skills, I worked in a team of two to build a restaurant analytics website as the sole software developer. This project is where the concept of software development really clicked for the first time for me as I learned to build the website's backend and frontend from scratch. You can check the live website @ ",
         "link": "https://foodsense2022.github.io"

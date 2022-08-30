@@ -16,8 +16,8 @@
       "state":"Singapore",
       "zip": "575954"
     },
-    "website": "https://github.com/albertarielw/albertarielw/blob/main/Resume%20Albert%20Ariel%20Widiaatmaja%20(29%20Aug%202022).pdf",
-    "resumedownload":"https://github.com/albertarielw/albertarielw/blob/main/Resume%20Albert%20Ariel%20Widiaatmaja%20(29%20Aug%202022).pdf",
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
     "social":[
       {
         "name":"github",
@@ -39,7 +39,7 @@
       },
       {
         "school":"Raffles Institution",
-        "degree":"Integrated Programme",
+        "degree":"Integrated Programme (Science Stream)",
         "graduated":"Jan 2017 - Dec 2020",
         "description":"Raffles Academy (Olympiad Training) in Physics and Mathematics",
         "description2":"Academic Excellence Award 2019 (top 5%)",
@@ -51,7 +51,7 @@
         "company":"ConcreteAI",
         "title":"Software Developer Intern",
         "years":"May 2022 - Aug 2022",
-        "description":"My internship at ConcreteAI was a blast! I learned a wide variety of technical software engineering skills: low-level development in C++, mobile application development using Kotlin (Andriod studio) and time series classfication with PyTorch MLP models. My main takeaways are: reading documentation skills (Actually! This helps me pick new concepts much faster with regards to new libraries or frameworks) and writing code responsibly - maintainable and readable code :)"
+        "description":"My internship at ConcreteAI was a blast! I learned a wide variety of technical software engineering skills: low-level development in C++, mobile application development using Kotlin (Andriod studio) and time series classfication with PyTorch MLP models. My main takeaways are: reading documentation skills (Actually! This helps me pick new concepts much faster with regards to new libraries or frameworks) and writing code responsibly -  and readable code :)"
       },
       {
         "company":"CARAKA",
@@ -85,7 +85,7 @@
     "project": [
       {
         "name":"FoodSense",
-        "title":"Full-Stack Developer",
+        "title":"Full-Stack Software Developer",
         "years":"May 2022 - Aug 2022",
         "description":"To further improve my software development skills, I worked in a team of two to build a restaurant analytics website as the sole software developer. This project is where the concept of software development really clicked for the first time for me as I learned to build the website's backend and frontend from scratch. You can check the live website @ ",
         "link": "https://foodsense2022.github.io"

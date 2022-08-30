@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/Components/additional.css"],"names":[],"mappings":"AAIA,aACI,eACJ","file":"main.0e1ac18a.chunk.css","sourcesContent":[".bio {\r\n    text-align: left;\r\n}\r\n\r\n.resume {\r\n    text-align: left;\r\n}"]}

@@ -1,15 +1,15 @@
 {
   "main": {
-    "name":"Hello, I'm Albert!",
-    "description":"Aspiring to work on software engineering projects - with a lot of MATH!",
-    "image":"newprofilepic2.png",
-    "bio1":"I love programming, I love math, I love physics <3 I just love problem-solving in general, especially if it involves a lot of coding! My dream job is to work on software development projects where I can learn, ideate and implement exciting solutions!",
-    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane (from all the coding), I love to gym and watch anime (Warning: I am a JoJo fan).",
+    "name":"Hi, I'm Albert",
+    "description":"Excited To Work On Cool Software Engineering Project!",
+    "image":"profilepic5.jpeg",
+    "bio1":"I really love software engineering - it is akin to magic for me because of its ability to translate my imagination to reality. I always look forward to build exciting software engineering products reliably and responsibly!",
+    "bio2":"Aside from that, I am an extra-outgoing guy who loves conversations and anything public speaking. And, to keep myself sane, I love to gym and play nintendo switch with my best buds!",
     "contactmessage":"Contact me to collaborate on software development projects!",
     "email": "w.albertariel@u.nus.edu",
     "phone": "(+65) 8130 6134",
     "github":"https://github.com/albertarielw",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://www.linkedin.com/in/albert-widiaatmaja",
     "address":{
       "street":"1 Raffles Institution Lane",
       "city":"Singapore City",
@@ -30,180 +30,232 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"National University of Singapore",
-        "degree":"B. Comp in Computer Science and Mathematics",
-        "graduated":"Aug 2021 - Present",
-        "description":"GPA: 5.0 (out of 5.0)",
-        "description2":"Recipient of NUS Undergraduate Merit Scholarship (ASEAN)",
-        "description3":""
+        "school":"National University of Singapore (NUS)",
+        "degree":"Computer Science and Mathematics",
+        "graduated":"Graduation Date: Nov 2024",
+        "description":"Courseworks: Competitive Programming, Operating Systems, Computer Networks, Software Engineering, Database Systems, Data Structure & Algorithms, Object-Oriented Programming",
+        "description2":"Awarded NUS Undergraduate Merit Scholarship for Academic Excellence"
       },
       {
         "school":"Raffles Institution",
-        "degree":"Integrated Programme (Science Stream)",
-        "graduated":"Jan 2017 - Dec 2020",
-        "description":"Raffles Academy (Olympiad Training) in Physics and Mathematics",
-        "description2":"Academic Excellence Award 2019 (top 5%)",
-        "description3":"Recipient of Raffles Institution School-Based Full Scholarship (ASEAN)"
+        "degree":"Science Streams",
+        "graduated":"Graduation Date: Dec 2020",
+        "description":"Awards in Physics, Mathematics, Research and Robotics Olympiads",
+        "description2":"Awarded SCCC School Based Scholarship for Academic Excellence"
       }
     ],
     "work":[
       {
+        "company":"TikTok",
+        "title":"Software Engineering Intern",
+        "years":"Jan 2023 - July 2023",
+        "description":"Developed internal tools for site stability issues identification and management",
+        "stacks": ["golang.svg", "python.svg", "sql.png", "redis.svg", "grafana.png"]
+      },
+      {
         "company":"ConcreteAI",
-        "title":"Software Developer Intern",
-        "years":"May 2022 - Aug 2022",
-        "description":"My internship at ConcreteAI was a blast! I learned a wide variety of technical software engineering skills: low-level development in C++, mobile application development using Kotlin (Android studio) and time series classfication with PyTorch MLP models. My main takeaways are: reading documentation skills (Actually! This helps me pick new concepts much faster with regards to new libraries or frameworks) and writing code responsibly -  and readable code :)"
+        "title":"Software Engineering Intern",
+        "years":"May 2022 - July 2022",
+        "description":"Developed android application for data transmission via Bluetooth Low Energy (BLE)",
+        "stacks": ["node.svg", "kotlin.svg", "mongodb.png", "android.svg"]
       },
       {
-        "company":"CARAKA",
-        "title":"Co-Founder",
-        "years":"Jan 2021 - June 2022",
-        "description":"I started an e-commerce start-up offering premium fashion items made in Indonesia in a team of three, collaborating with 15+ renowned brands with 200+ total products. In this journey, I contributed by developing the website using WixSite and worked on my professional communication abilities. Although CARAKA came to an end, regret was the furthest thing that came to my mind due to the skills and work experience I gained and the contribution we made to society with our community involvement project during my time building this startup."
+        "company":"NUS-SSI Laboratories",
+        "title":"Research Assistant",
+        "years":"May 2023 - August 2023",
+        "description":"Developed communication module for smart glasses using WebRTC",
+        "stacks": ["cpp.svg", "opencv.svg", "js.svg"]
       },
       {
-        "company":"National University of Singapore",
+        "company":"National University of Singapore (NUS)",
         "title":"Teaching Assistant",
-        "years":"Aug 2022 - Present",
-        "description":"I teach CS1010E Introduction to Programming in Python to a class of 25 freshmen. I learned how to explain programming concepts in an easy-to-understand way for those without programming background. This helped me enhance my communication ability to non-IT personnels and deepen my understanding of programming concepts."
-      },
-      {
-        "company":"Raffles Institution Boarding",
-        "title":"Residential Assistant",
-        "years":"May 2022 - Present",
-        "description":"RI Boarding is the first family I made in Singapore. I feel a strong sense of belonging to this community which is why I returned as a residential assisstant. I handle administrative work and contribute to the community by providing basic web-development crash course on my free time."
+        "years":"May 2022 - July 2022",
+        "description":"Taugt Introduction to Programming in Python to a class of 25 freshmen",
+        "stacks": ["python.svg"]
       }
     ],
     "skills":[
       {
-        "name":"Programming Language",
-        "description":"C, C++, Java, JavaScript, HTML, CSS, Python, Kotlin"
+        "name":"Python",
+        "level":"60%"
       },
       {
-        "name":"Framework and Tools",
-        "description":"React, Kotlin (Android Studio), NodeJS, ExpressJS, Firebase, MongoDB, Git"
+        "name":"VueJs",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"PHP",
+        "level":"80%"
+      },
+      {
+        "name":"Swift",
+        "level":"50%"
+      },
+      {
+        "name":"JAVA",
+        "level":"80%"
       }
     ],
-    "project": [
+    "projects": [
       {
-        "name":"FoodSense",
-        "title":"Full-Stack Software Developer",
-        "years":"May 2022 - Aug 2022",
-        "description":"To further improve my software development skills, I worked in a team of two to build a restaurant analytics website as the sole software developer. This project is where the concept of software development really clicked for the first time for me as I learned to build the website's backend and frontend from scratch. You can check the live website @ ",
-        "link": "https://foodsense2022.github.io"
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "website_url": "https://pinus-study.netlify.app/",
+        "github_url": "https://github.com/PINUSTECH-2022",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed an online forum centred around NUS courseworks (team lead)",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
+      },
+      {
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "website_url": "https://foodsense2022.github.io/",
+        "github_url": "https://github.com/albertarielw/FoodSense",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Developed a food analytics website",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
+      },
+      {
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "website_url": "https://ay2223s1-cs2103t-f12-2.github.io/tp/",
+        "github_url": "https://github.com/AY2223S1-CS2103T-F12-2/tp",
+        "description": "Developed hackathon task management desktop application",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
+      },
+      {
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "website_url": "",
+        "github_url": "https://github.com/AudreyFelicio/Tetris",
+        "description": "Developed a simple Tetris game",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
+      },
+      {
+        "title":"QR Decomposition Algorithm",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/qr-decomposition-prediction",
+        "description": "Implemented least square approximation based on QR decomposition algorithm",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
       }
     ],
-    "activity": [
+    "miniProjects": [
       {
-        "name":"NUS Indonesian Association",
-        "title":"Head of Tech. Division",
-        "years":"Aug 2022 - Present",
-        "description":"I am leading a team of eight programmers to work on a year-long software development project (Soon!). I will update as the project progresses!"
+        "title":"Physics Research: The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"pinus.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/Drifting-Speckle",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "Silver Medal in Singapore Young Physicists' Tournament 2020",
+        "stacks": ["cpp.svg", "wolfram.svg"]
       },
       {
-        "name":"Young Physicists’ Tournament",
-        "title":"Physics Researcher",
-        "years":"Sep 2019 – Mar 2020",
-        "description":"I investigated an optics phenomenon named \"The Drifting Speckle\" where I coded simulation using C++ and Wolfram Mathematics based on Fourier Physics and Matrix Algebra and built experimental set-up to verify my simulation's theoretical predicitons. I received a Silver Medal in Singapore Young Physicists’ Tournament Category A 2020."
+        "title":"Robotics Software Engineer",
+        "category":"Robotics Development",
+        "image":"foodsense2.png",
+        "website_url": "",
+        "github_url": "https://github.com/albertarielw/robotics",
+        "url":"https://www.canadianwanderlust.com",
+        "description": "3rd Place Award in RoboCup World 2019, Invitation to RoboCup World 2019 in Sydney",
+        "stacks": ["cpp.svg", "python.svg"]
       },
       {
-        "name":"Robotics Competitions",
-        "title":"Robotics Engineer",
-        "years":"Jan 2019 – July 2020",
-        "description":"I built robots using Lego and Arduino componets and programmed them using Python and Arduino C. I achieved 3rd Place Award in Singapore Robocup Open 2019 and Best Programming Award in National Robotics Competition 2019."
-      },
-      {
-        "name":"Physics Olympiad",
-        "title":"Medallist",
-        "years":"Jan 2017 – Dec 2020",
-        "description":"I won Silver Medal in Singapore Physics Olympiad 2019, Bronze and Silver Medals in Singapore Junior Physics Olympiad 2017 and 2018"
+        "title":"Physics Olympiad",
+        "category":"Academic Competition",
+        "image":"hackassist.png",
+        "website_url": "",
+        "github_url": "",
+        "description": "Silver Medal in SPhO 2019, Bronze and Silver Medal in SJPO 2017 & 2018",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": []
       }
-    ], "volunteering": [
+    ],
+    "skillset": [
       {
-        "name":"CARAKA X Veteran Indonesia Fundraiser",
-        "title":"Organizer",
-        "years":"June 2021 - July 2021",
-        "description":"I partnered with Veteran Indonesia to raise S$2000 to alleviate financial adversities encountered by veterans during Covid-19 pandemic. I gathered and led 300+ volunteers to deploy social media platforms to raise funds. I also utilized this project to promote opening-sales of Caraka, thereby reducing advertising expenditure."
+        "title": "Programming Language",
+        "stacks": ["cpp.svg", "golang.svg", "python.svg", "java.svg", "js.svg", "html.svg", "css.svg", "c.svg", "kotlin.svg"]
       },
       {
-        "name":"Project 001",
-        "title":"Organizer",
-        "years":"Jul 2019 – Jun 2020",
-        "description":"I Initiated a volunteering project aiming to expose basic programming knowledge to underprivileged primary school children in Singapore. Here, I collaborated withAng Mo Kio CDC to find beneficiaries as well as gathered and led 50 volunteers from Raffles Institutions."
+        "title": "Frameworks",
+        "stacks": ["sql.png", "psql.png", "gin.png", "node.svg", "firebase.svg", "react.png", "android.svg", "git.svg"]
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"PINUS Study Forum",
+        "category":"Website Development",
+        "image":"pinus.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["golang.svg", "gin.png","psql.png", "react.png"]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"FoodSense",
+        "category":"Website Development",
+        "image":"foodsense2.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["node.svg", "firebase.svg","react.png", "mui.png"]
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"HackAssist",
+        "category":"Desktop Development",
+        "image":"hackassist.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["java.svg", "junit.png","jenkins.png"]
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Tetris",
+        "category":"Desktop Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "sfml.png"]
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Lish's Adventure",
+        "category":"Mobile Game",
+        "image":"tetris.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["flutter.svg", "flame.png"]
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"The Drifting Speckles",
+        "category":"Physics Simulation",
+        "image":"speckle.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["cpp.svg", "wolfram.svg"]
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"QR Decomposition Algo",
+        "category":"Data Analytics",
+        "image":"qr.png",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "numpy.svg"]
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Robotics Competitions",
+        "category":"Robotics Development",
+        "image":"robotics.jpeg",
+        "url":"https://www.canadianwanderlust.com",
+        "stacks": ["python.svg", "arduino.svg"]
       }
     ]
   }

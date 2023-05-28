@@ -15,7 +15,7 @@ class App extends Component {
     this.state = {
       foo: "bar",
       resumeData: {}
-    }; // test
+    };
 
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
@@ -46,6 +46,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
         <Footer data={this.state.resumeData.main} />
       </div>
     );

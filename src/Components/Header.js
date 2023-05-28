@@ -14,7 +14,6 @@ class Header extends Component {
     return (
       <header id="home">
         <ParticlesBg type="circle" bg={true} />
-
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -41,22 +40,24 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 style={{ color: 'white', fontSize: '30px' }}>Hi, I'm Albert!</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}</h3>
+            <h1 style={{ color: 'white', fontSize: '30px' }}>An Aspiring Software Engineer</h1>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={github} className="button btn github-btn">
+                <a href={project} className="button btn linkedin-btn" style={{ minWidth: "160px" }}>
+                  <i className="fa fa-linkedin"></i>LinkedIn
+                </a>
+                <a href={github} className="button btn github-btn" style={{ minWidth: "160px" }}>
                   <i className="fa fa-github"></i>Github
                 </a>
               </ul>

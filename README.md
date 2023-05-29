@@ -1,1 +1,1 @@
-Check out live website at: [https://albertarielw.github.io/resume/](https://albertarielw.github.io/resume/)
+Check out live website at: [albertarielw.github.io](https://albertarielw.github.io/new-resume/)
